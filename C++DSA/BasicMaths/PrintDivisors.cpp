@@ -21,6 +21,6 @@
     }
     sort(ls.begin(), ls.end());
     for(auto it : ls) cout << it << " ";
-    //can sort using vector and list
+    //can sort using vector and list with t.c O(sqrt N)
     return 0;
  } 
