@@ -12,13 +12,12 @@ int removeDuplicates(vector<int>& nums) {
             i++;
         }
     }
-
     return i + 1;
 }
 
 int main() {
     int n;
-    cout << "Enter size of array: ";
+    cout << "Enter size of array:  ";
     cin >> n;
 
     vector<int> nums(n);
